@@ -1,0 +1,15 @@
+package javaclass.practice02;
+
+import java.util.Scanner;
+
+public class mainTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		Rectangle rac = new Ractangle();
+		rac.width = 
+	}
+
+}

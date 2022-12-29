@@ -1,0 +1,30 @@
+package var.ex04;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 타입변환
+		/*
+		 * 데이터 타입을 다른 데이터 타입으로 변환하는 것
+		 * 변수 값을 다른 타입의 변수에 저장할 때 발생할 수 있음
+		 */
+		byte a = 10;
+		int b = a;
+		
+		// 자동 타입 변환(promotion)
+		/*
+		 * 큰 허용 범위 타입 = 작은 허용 범위 타입
+		 * >> 아무 문제 없기 때문에 에러 발생 x
+		 * byte < short < int < long < float < doubles
+		 */
+		
+		char c = 'A';
+		int i = c; // 65가 저장됨
+		
+		byte b = 65;
+		//c = b; // 컴파일 에러
+		// byte는 부호가 있는데 char은 부호가 없기 때문
+	}
+
+}

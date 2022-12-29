@@ -1,0 +1,29 @@
+package var.ex05;
+
+public class FileIO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 파일 입출력
+		/*
+		 * System.out // 시스템 표준 출력 장치로 출력 e.g. System.out.println("");
+		 * System.in // 시스템 표준 입력 장치에서 읽음 e.g. System.in.read();
+		 */
+		
+		// OUT
+		/*
+		 * println(내용); // 내용 출력 + 줄바꿈
+		 * print(내용); // 내용 출력
+		 * printf("형식 문자열", 값1, 값2, ...); // 문자열 형식대로 내용 출력
+		 */
+		
+		System.out.printf("이름: %s\n", "김민진");
+		System.out.printf("나이: %d\n", 23);
+		
+		/*
+		 * %6d // 6자리 정수
+		 * %-6d // 6자리 정수인데 오른쪽에 공백 주기
+		 */
+	}
+
+}

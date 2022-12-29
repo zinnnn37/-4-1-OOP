@@ -1,0 +1,26 @@
+package instance.ex02;
+
+public class StaticWithMain {
+	
+	public class Car {
+		
+		int speed;
+	
+		void run() {}
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+		
+			//speed = 60; // error > main도 static이기 때문
+			//run()
+		
+			Car myCar = new Car();
+			
+			myCar.speed = 60;
+			myCar.run();
+			
+		}
+		
+	}
+
+}

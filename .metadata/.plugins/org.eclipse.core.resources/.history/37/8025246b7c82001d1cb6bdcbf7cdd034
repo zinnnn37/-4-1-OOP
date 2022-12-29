@@ -1,0 +1,10 @@
+package var.ex02;
+
+public class VariableRange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

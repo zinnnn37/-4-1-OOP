@@ -1,0 +1,15 @@
+package javafinal.ex01;
+
+public class FinalBasic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// final
+		/*
+		 * 초기값이 저장되면 최종값이 되어 프로그램 실행 도중 수정 불가
+		 * const같은 거 아닌가
+		 */
+
+	}
+
+}

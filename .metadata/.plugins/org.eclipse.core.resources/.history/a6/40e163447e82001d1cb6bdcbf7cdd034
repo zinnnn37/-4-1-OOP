@@ -1,0 +1,73 @@
+package var.ex03;
+
+public class VariableType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 기본 타입은 크게 3가지
+		 * 정수: byte(1byte=8bit, -128~127), char(2 -> 0~65535), short(2, -32,768~32,767),
+		 * 		int(4), long(8) > 여기서 문자열로 다시 나눌 수 있음
+		 * 실수: float, double
+		 * 논리: boolean
+		 */
+		
+		/*
+		 * 리터럴(literal): 소스코드에서 프로그래머에 의해 직접 입력된 값
+		 * 정수
+		 * 1. 2진수(0b로 시작): 0b1011: 11
+		 * 2. 8진수(0으로 시작): 0206 = 134
+		 * 3. 10진수
+		 * 4. 16진수(0x로 시작): 0xB3: 179
+		 */
+		
+		int var1 = 0b1011;
+		int var2 = 0206;
+		int var3 = 365;
+		int var4 = 0xB3;
+		
+		System.out.println("var1: " + var1);
+		System.out.println("var2: " + var2);
+		System.out.println("var3: " + var3);
+		System.out.println("var4: " + var4);
+		
+		//byte var5 = 128; // 컴파일 에러(Type mismatch: cannot convert from int to byte
+		//-> byte의 범위를 벗어나는 값을 대입해서
+		
+		//long var6 = 1000000000000; // 컴파일 에러(The literal 1000000000000 of type int is out of range)
+		//System.out.println(var6);
+		//-> 10000000000은 int의 범위를 벗어나는 숫자 > 10000000000L로 하면 long 타입으로 처리 가능
+		long var7 = 10000000000L;
+		System.out.println("var7: " + var7);
+		
+		// char = 하나의 문자를 저장할 수 있음.
+		/*
+		 * 'A' == 65
+		 * 'a' == 97
+		 * '가' == 44032
+		 * '각' == 44033
+		 * 10진수 혹은 16진수 형태의 유니코드를 저장 가능하다
+		 * c = 65; // 'A'
+		 * c = 0x0041; // 65의 16진수
+		 */
+		
+		char c1 = 'A';
+		char c2 = 65;
+		char c3 = '\u0041'; // 16진수로 저장됨
+		char c4 = '가';
+		char c5 = 44032;
+		char c6 = '\uac00';
+		
+		System.out.println(c1);
+		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(c4);
+		System.out.println(c5);
+		System.out.println(c6);
+		// AAA가가가
+		
+		// 문자열
+		
+	}
+
+}

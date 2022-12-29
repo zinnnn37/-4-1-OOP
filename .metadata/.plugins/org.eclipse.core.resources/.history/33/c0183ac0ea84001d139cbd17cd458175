@@ -1,0 +1,12 @@
+package condition.ex02;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// if문보다 코드가 간결함
+		// switch와 case의 변수 타입을 맞춰주어야 함
+		
+	}
+
+}

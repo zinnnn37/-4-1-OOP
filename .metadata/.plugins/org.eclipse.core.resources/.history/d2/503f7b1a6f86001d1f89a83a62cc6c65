@@ -1,0 +1,24 @@
+package javaclass.ex06;
+
+public class Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// method
+		/*
+		 * returnType Name ( [parameters] ) {
+		 * 		code;
+		 * }
+		 */
+		
+		// 메소드 선언
+		/*
+		 * 리턴 x
+		 * method( [parameters] );
+		 * 
+		 * 리턴 o
+		 * type res = method( [parameters] );
+		 */
+	}
+
+}

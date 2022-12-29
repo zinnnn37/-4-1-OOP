@@ -1,0 +1,17 @@
+package array.ex01;
+
+public class ArrayBasic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 배열 선언
+		/*
+		 * type[] name; or type name[];
+		 * int[] intArray; or int intArray[];
+		 * 
+		 * 초기화 바로 가능
+		 * type[] name = { val1, val2, val3, ... };
+		 */
+	}
+
+}

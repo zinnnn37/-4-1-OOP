@@ -1,0 +1,14 @@
+package var.ex05;
+
+public class FileIO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 파일 입출력
+		/*
+		 * System.out // 시스템 표준 출력 장치로 출력 e.g. System.out.println("");
+		 * System.in // 시스템 표준 입력 장치에서 읽음 e.g. System.in.read();
+		 */
+	}
+
+}

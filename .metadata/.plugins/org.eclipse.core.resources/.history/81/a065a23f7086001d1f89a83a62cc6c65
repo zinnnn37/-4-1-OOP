@@ -1,0 +1,48 @@
+package javaclass.ex06;
+
+public class Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// method
+		/*
+		 * returnType Name ( [parameters] ) {
+		 * 		code;
+		 * }
+		 * 
+		 * 1. 숫자로 시작하면 안됨
+		 * 2. $, _ 외의 특수문자 사용 불가
+		 * 3. 소문자로 시작
+		 * 4. camelCase
+		 */
+		
+		// 메소드 선언
+		/*
+		 * 리턴 x
+		 * method( [parameters] );
+		 * 
+		 * 리턴 o
+		 * type res = method( [parameters] );
+		 */
+		
+		// 매개변수의 개수를 모르는 경우
+		/*
+		 * 1. 매개변수를 배열 타입으로 선언
+		 * int sum(int[] values) {};
+		 * 
+		 * int[] values = { 1, 2, 3 };
+		 * int res = sum(values);
+		 * 
+		 * or
+		 * 
+		 * int res = sum(new int[] { 1, 2, 3, 4, 5 });
+		 * 
+		 * 2. 목록의 값만 넘겨주는 방식
+		 * int sum(int ... values) { } // values라는 이름의 배열로 컴파일러가 생성해줌
+		 * 
+		 * int res = sum(1, 2, 3); > 1, 2, 3이 values라는 int 배열로 처리됨
+		 * int res = sum(1, 2, 3, 4, 5);
+		 */
+	}
+
+}

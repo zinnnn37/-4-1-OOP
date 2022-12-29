@@ -1,0 +1,13 @@
+package array.ex04;
+
+public class MultidimentionalArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 구조
+		/*
+		 * int[][] scores = new int[2][3]
+		 */
+	}
+
+}

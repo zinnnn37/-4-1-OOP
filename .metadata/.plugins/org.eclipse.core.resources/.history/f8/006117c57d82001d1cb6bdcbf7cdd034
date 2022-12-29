@@ -1,0 +1,41 @@
+package var.ex03;
+
+public class VariableType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 기본 타입은 크게 3가지
+		 * 정수: byte(1byte=8bit, -128~127), char(2 -> 0~65535), short(2, -32,768~32,767),
+		 * 		int(4), long(8) > 여기서 문자열로 다시 나눌 수 있음
+		 * 실수: float, double
+		 * 논리: boolean
+		 */
+		
+		/*
+		 * 리터럴(literal): 소스코드에서 프로그래머에 의해 직접 입력된 값
+		 * 정수
+		 * 1. 2진수(0b로 시작): 0b1011: 11
+		 * 2. 8진수(0으로 시작): 0206 = 134
+		 * 3. 10진수
+		 * 4. 12진수(0x로 시작): 0xB3: 179
+		 */
+		
+		int var1 = 0b1011;
+		int var2 = 0206;
+		int var3 = 365;
+		int var4 = 0xB3;
+		
+		System.out.println("var1: " + var1);
+		System.out.println("var2: " + var2);
+		System.out.println("var3: " + var3);
+		System.out.println("var4: " + var4);
+		
+		//byte var5 = 128; // 컴파일 에러(Type mismatch: cannot convert from int to byte
+		//-> byte의 범위를 벗어나는 값을 대입해서
+		
+		long var6 = 1000000000000; // 컴파일 에러(The literal 1000000000000 of type int is out of range)
+		System.out.println(var6);
+	}
+
+}

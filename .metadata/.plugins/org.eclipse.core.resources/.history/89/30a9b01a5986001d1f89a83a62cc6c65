@@ -1,0 +1,14 @@
+package javaclass.ex04;
+
+public class Korean {
+	
+	String nation = "Kor";
+	String name;
+	String ssn;
+	
+	public Korean(String n, String s) {
+		name = n;
+		ssn = s;
+	}
+
+}

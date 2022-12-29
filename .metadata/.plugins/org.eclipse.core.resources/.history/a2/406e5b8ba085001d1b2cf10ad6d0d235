@@ -1,0 +1,25 @@
+package enumerated.ex01;
+
+public class EnumBasic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 열거 타입
+		/*
+		 * 열거 상수(한정된 값을 저장하는 타입
+		 */
+		/*
+		 * public enum Week {
+		 * 		val1,
+		 * 		val2,
+		 * 		...
+		 * }
+		 * Week today;
+		 * today = Week.val1
+		 * 
+		 * >> 소스파일 생성(new -> enum) 후 열거타입 선언, 열거상수 선언..
+		 */
+		Week today = Week.SUNDAY;
+	}
+
+}

@@ -1,0 +1,14 @@
+package array.ex02;
+
+public class ArrayNew {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// new 연산자로 배열 생성
+		/*
+		 * type[] name = new type[length];
+		 * 배열변수 > type[] name = null; name = new type[length];
+		 */
+	}
+
+}

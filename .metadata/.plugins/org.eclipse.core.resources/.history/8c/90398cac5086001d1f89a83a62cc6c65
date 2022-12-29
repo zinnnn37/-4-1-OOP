@@ -1,0 +1,10 @@
+package javaclass.ex02;
+
+public class DefineClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package enumerated.ex01;
+
+public class EnumBasic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

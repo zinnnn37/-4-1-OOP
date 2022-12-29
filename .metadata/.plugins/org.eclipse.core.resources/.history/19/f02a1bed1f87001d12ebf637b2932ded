@@ -1,0 +1,10 @@
+package singleton.ex01;
+
+public class SingletonBasic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

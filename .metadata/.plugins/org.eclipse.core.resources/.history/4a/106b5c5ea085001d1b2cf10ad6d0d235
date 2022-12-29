@@ -1,0 +1,5 @@
+package enumerated.ex01;
+
+public enum Week {
+
+}

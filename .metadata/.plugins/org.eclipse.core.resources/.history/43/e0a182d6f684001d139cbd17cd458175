@@ -1,0 +1,15 @@
+package loop.practice01;
+
+import java.util.Scanner;
+
+public class PI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		double molecule = 1.0;
+		double sum = 0.0;
+	}
+
+}

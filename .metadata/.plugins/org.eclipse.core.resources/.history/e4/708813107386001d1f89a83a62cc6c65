@@ -1,0 +1,19 @@
+package javaclass.practice01;
+
+public class Circle {
+	
+	int	r;
+	String name;
+	
+	Circle(int r, String name) {
+		
+		this.r = r;
+		this.name = name;
+	}
+	
+	double calculateArea(int r) {
+		double area;
+		area = 3.14 * r * r;
+		return area;
+	}
+}

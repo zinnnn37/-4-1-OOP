@@ -1,0 +1,17 @@
+package condition.practice02;
+
+import java.util.Scanner;
+
+public class RockSissorPapper {
+
+	final int SISSOR = 0;
+	final int ROCK = 1;
+	final int PAPER = 2;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package array.practice04;
+
+public class RandomDice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random random = new Random
+	}
+
+}

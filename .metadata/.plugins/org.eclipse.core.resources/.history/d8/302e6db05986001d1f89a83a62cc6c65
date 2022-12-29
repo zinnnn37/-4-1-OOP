@@ -1,0 +1,14 @@
+package javaclass.ex05;
+
+public class Overloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 생성자 오버로딩
+		/*
+		 * 매개변수를 달리하는 생성자를 여러개 선언
+		 * >> 외부에서 제공되는 다양한 데이터를 사용하여 객체화하기 위해 사용함
+		 */
+	}
+
+}

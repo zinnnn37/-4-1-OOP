@@ -26,7 +26,7 @@ public class AbstractMethod {
 		 * void sound() { 야옹 }
 		 */
 		
-		//Animal animal = new Animal(); // Cannot instantiate the type Animal > 추상 클래스라 인스턴스화 불가
+		//Animal animal = new Animal(); // Cannot instantiate the type Animal > 추상 클래스라 인스턴스화 불가ㄴ
 		
 		Cat cat = new Cat();
 		Dog dog = new Dog();

@@ -1,5 +1,0 @@
-package singleton.ex01;
-
-public class Singleton {
-
-}
